@@ -1,0 +1,19 @@
+public class Main {
+    public static  void main(String args[]){
+        int no []={12,34,56,78,90};
+        int ch = 34;
+        boolean isInArray = false;
+        for(int elements : no){
+            if(ch==elements){
+                isInArray =true;
+                break;
+            }
+        }
+        if(isInArray){
+            System.out.println("This value is present in an Array");
+        }
+        else{
+            System.out.println("This value is not present in an Array");
+        }
+    }
+}
